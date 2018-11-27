@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Machine Learning",
 	"main": "index.js",
-	"homepage": "https://jh2866.github.io/my-portfolio",
+	"homepage": "https://jh2866.github.io/machine-learning",
 	"scripts": {
 		"sass": "node-sass -w scss/ -o dist/css/ --recursive",
 		"deploy": "gh-pages -d dist"
