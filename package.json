@@ -1,14 +1,17 @@
 {
-  "name": "hottamaleheaven",
-  "version": "1.0.0",
-  "description": "Hot Tamale Heaven Mock-Up",
-  "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.10.0"
-  }
+	"name": "current",
+	"version": "1.0.0",
+	"description": "Machine Learning",
+	"main": "index.js",
+	"homepage": "https://jh2866.github.io/my-portfolio",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive",
+		"deploy": "gh-pages -d dist"
+	},
+	"author": "Joe Hall",
+	"license": "MIT",
+	"dependencies": {
+		"gh-pages": "^2.0.1",
+		"node-sass": "^4.10.0"
+	}
 }
